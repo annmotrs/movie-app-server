@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import favoriteController from '../controllers/favoriteController.js';
+import favoriteController from '../controllers/favorite.controller.js';
 
 export const router = new Router();
 

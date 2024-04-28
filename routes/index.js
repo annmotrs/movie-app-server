@@ -1,6 +1,6 @@
 import { Router } from 'express';
-import { router as userRouter } from './userRouter.js';
-import { router as favoriteRouter } from './favoriteRouter.js';
+import { router as userRouter } from './user.router.js';
+import { router as favoriteRouter } from './favorite.router.js';
 
 const router = new Router();
 
